@@ -39,6 +39,7 @@
       padding: 10px; 
       border: 1px solid #ddd; 
       text-align: left; 
+      word-wrap: break-word; /* Ensure long words don't break layout */
     }
     th { 
       background-color: #d9d9d9; /* Slightly darker grey for headers */
@@ -62,6 +63,7 @@
       align-items: center; 
       justify-content: center; 
       gap: 10px; 
+      flex-wrap: wrap; /* Allows items to wrap on smaller screens */
     }
     .logo img { 
       height: 50px; 
@@ -81,6 +83,45 @@
     }
     .location i {
       color: darkblue; /* Icon color */
+    }
+
+    /* Media Queries */
+    @media (max-width: 768px) {
+      .logo img {
+        height: 40px; /* Reduce logo size for smaller screens */
+      }
+      .middle {
+        padding: 10px; /* Reduce padding for better fit */
+      }
+      table th, table td {
+        padding: 8px; /* Adjust padding for smaller screens */
+        font-size: 14px; /* Reduce font size */
+      }
+      .score {
+        font-size: 1.5em; /* Adjust score font size */
+      }
+      .location {
+        font-size: 14px; /* Adjust font size for location */
+      }
+    }
+
+    @media (max-width: 480px) {
+      .logo {
+        flex-direction: column; /* Stack logo and text vertically */
+        text-align: center;
+      }
+      .middle {
+        padding: 5px; /* Further reduce padding */
+      }
+      table {
+        font-size: 12px; /* Make table text smaller */
+      }
+      .score {
+        font-size: 1.2em; /* Adjust score font size */
+      }
+      .location {
+        font-size: 12px; /* Adjust font size for location */
+      }
     }
   </style>
 </head>
