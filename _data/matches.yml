@@ -1,0 +1,63 @@
+past_matches:
+  - team1: "San Donato"
+    team2: "Hoka Hey"
+    day: "17-10-2024"
+    time: "22:00"
+    pitch: "Pallavicini (Campo)"
+    address: "Via Marco Emilio Lepido, 196"
+    score: "2-3" # Our team wins
+    result: "loss" # win, loss, draw
+
+  - team1: "San Donato"
+    team2: "Los Tiburones"
+    day: "31-10-2024"
+    time: "21:00"
+    pitch: "Pallavicini (Campo)"
+    address: "Via Marco Emilio Lepido, 196"
+    score: "5-0" # Our team wins
+    result: "win" # win, loss, draw
+  
+  - team1: "Sparvo"
+    team2: "San Donato"
+    day: "7-11-2024"
+    time: "21:00"
+    pitch: "Pallavicini (Palestra)"
+    address: "Via Marco Emilio Lepido, 196"
+    score: "5-0" # Our team wins
+    result: "win" # win, loss, draw
+
+  - team1: "3 Moons"
+    team2: "San Donato"
+    day: "14-11-2024"
+    time: "21:00"
+    pitch: "Pallavicini (Palestra)"
+    address: "Via Marco Emilio Lepido, 196"
+    score: "0-3" # Our team wins
+    result: "win" # win, loss, draw
+
+  - team1: "San Donato"
+    team2: "Bononia FC"
+    day: "21-11-2024"
+    time: "21:15"
+    pitch: "Savena"
+    address: "Via della Torretta, 12/5"
+    score: "4-0" # Our team wins
+    result: "win" # win, loss, draw
+
+  - team1: "San Donato"
+    team2: "Navile FC"
+    day: "27-11-2024"
+    time: "21:15"
+    pitch: "Savena"
+    address: "Via della Torretta, 12/5"
+    score: "4-1" # Our team wins
+    result: "win" # win, loss, draw
+
+
+upcoming_matches:
+  - team1: "San Donato"
+    team2: "Looney Strunz"
+    day: "04-12-2024"
+    time: "22:15"
+    pitch: "Pallavicini (Palestra)"
+    address: "Via della Torretta, 12/5"
